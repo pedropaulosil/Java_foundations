@@ -1,4 +1,4 @@
-package variaveis;
+package desafios.medianota;
 
 import java.util.Scanner;
 
