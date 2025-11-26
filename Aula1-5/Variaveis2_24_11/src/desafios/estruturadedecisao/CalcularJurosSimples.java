@@ -1,8 +1,8 @@
-package desafios;
+package desafios.estruturadedecisao;
 
 import java.util.Scanner;
 
-public class CalculadoraJurosSimples {
+public class CalcularJurosSimples {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 

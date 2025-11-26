@@ -1,4 +1,4 @@
-package desafios.medianota;
+package desafios.estruturadedecisao.medianota;
 
 import java.util.Scanner;
 

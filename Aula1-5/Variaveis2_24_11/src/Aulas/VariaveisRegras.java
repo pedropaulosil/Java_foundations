@@ -1,11 +1,11 @@
-package variaveis;
+package Aulas;
 import java.util.Scanner;
 
 public class VariaveisRegras {
     public static void main(String[] args) {
         String nome1 = "Pedro"; //variavel nome
-                //nome =  "Manoel"; // nao pode
-                //String pessoa = 10; // nao pode
+                                //nome =  "Manoel"; // nao pode
+                                //String pessoa = 10; // nao pode
         String nome2 = "José";
         String nome3 = "Maria";
 
