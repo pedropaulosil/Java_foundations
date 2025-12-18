@@ -5,7 +5,7 @@ document.getElementById("produtoForm").addEventListener("submit", function (even
         tipo: document.getElementById("tipo").value,
         tamanho: document.getElementById("tamanho").value,
         quantidade: Number(document.getElementById("quantidade").value),
-        valor: Number(document.getElementById("valor").value),
+        preco: Number(document.getElementById("valor").value),
         marca: document.getElementById("marca").value
     };
 

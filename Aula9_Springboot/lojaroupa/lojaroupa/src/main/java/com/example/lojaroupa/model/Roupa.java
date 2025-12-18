@@ -10,7 +10,7 @@ import lombok.Setter;
 @Table (name = "roupa")
 //Informa que a class Roupa é uma entidade JPA
 //Mapea a classe para o banco
-@Entity(name = "Roupa")
+@Entity(name = "roupa")
 //Lombok
 @Getter
 @Setter
@@ -28,4 +28,11 @@ public class Roupa {
     private int quantidade;
     private double preco;
 
+    public Roupa(DadosRoupas dadosRoupas) {
+        this.marca = dadosRoupas.marca();
+        this.tipo = dadosRoupas.tipo();
+        this.tamanho = dadosRoupas.tamanho();
+        this.quantidade = dadosRoupas.quantidade();
+        this.preco = dadosRoupas.preco();
+    }
 }
