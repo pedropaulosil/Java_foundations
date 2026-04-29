@@ -38,7 +38,7 @@ public class Main{
                 case 2 -> {
                     listaPedido.listarPedidos();
                     IO.println("Digite o id do lanche");
-                    int idLanvhePedido = Integer.parseInt(IO.readln());
+                    int idLanchePedido = Integer.parseInt(IO.readln());
                 } case 3 -> {
                     IO.println("Edite o pedido");
                     menu.exibirCardapio();
